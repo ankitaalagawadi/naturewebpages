@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+/* navigationbar */
+.nav-bg {
+    background-color: #156356 !important;
+
+}
+/* navigationbar */
+/* header section */
+.bgimg {
+    background: linear-gradient(#0000ff99, #0080009e), url("../images/bgim1.jpg") fixed no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+
+}
+
+.content {
+
+    padding: 10% 20%;
+
+}
+.imgattach {
+    background: linear-gradient(#2d2c2c91, #000000c4), fixed url("../images/him.jpg") no-repeat top center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.fnt-css {
+    background-image: linear-gradient(#0c000091, #ffffffb3), url("../images/him.jpg");
+
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
+    font-size: 10rem;
+    overflow-x: hidden;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue',
+        helvetica, arial, sans-serif;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    text-shadow:inherit 3px 4px 2px white;
+}
+
+.btn-clr {
+    background-color: #e3ac88;
+}
+
+.btn-clr:hover {
+    color:#e3ac88  !important;
+    background-color:white ;
+}
+
+/* header section */
+
+
+section {
+    padding: 60px 0px;
+    position: relative;
+
+}
+
+.abt {
+    background-color: #fafafa;
+}
+
+.crdimg {
+    aspect-ratio: 1/1;
+}
+
+.img-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1e3f5bda;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.card:hover .img-overlay {
+    height: 30%;
+}
+
+.text {
+    color: white;
+
+}
+
+.crdactn {
+    aspect-ratio: .5/.5
+}
+
+.bgfooter {
+    background-color: #156356;
+    padding: 20px;
+}
+
+.bgfooter>.container>hr {
+
+    border: 2px solid white !important;
+    padding: 0;
+}
+
+.footer-text {
+    color: #77bc81;
+}
+
+
+
+.achievement-container {
+    text-align: center;
+}
+
+/* animation css */
+.achievement {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #e3ac88;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.counter-display {
+    font-size: 2rem;
+    color: #fff;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* animation css */

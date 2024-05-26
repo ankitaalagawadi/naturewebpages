@@ -1,0 +1,38 @@
+@media screen and (min-width:0px) and (max-width:400px) {
+    .bgimg
+{
+    background:linear-gradient(#0000ff99, #0080009e), url("/images/bgim1.jpg") no-repeat center center;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+section {
+    padding: 60px 0px;
+    position: relative;
+    
+    top: 20rem;
+}
+.fnt-css
+{
+    background-image:linear-gradient(#8a8ad191, #0e2b0ec4), url(
+        "/images/n21.jpg") ;
+
+                    background-repeat: repeat;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    margin-top: 0px;
+                    font-size: 5rem;
+                    overflow-x: hidden;
+                    text-align: center;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    font-family: 'Steelfish Rg', 'helvetica neue', 
+                                    helvetica, arial, sans-serif;
+                    font-weight: bold;
+                    -webkit-font-smoothing: antialiased;
+}
+}
